@@ -1,0 +1,23 @@
+{
+  "name": "leetcode-solutions",
+  "version": "1.0.0",
+  "description": "My solutions to LeetCode problems, organized by topic and difficulty.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CL-Mel21/LeetCode-Solutions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CL-Mel21/LeetCode-Solutions/issues"
+  },
+  "homepage": "https://github.com/CL-Mel21/LeetCode-Solutions#readme",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "lodash": "^4.17.21"
+  }
+}
