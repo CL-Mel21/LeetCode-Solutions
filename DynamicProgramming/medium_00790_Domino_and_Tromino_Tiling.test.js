@@ -1,4 +1,4 @@
-const { numTilings } = require("./medium_790_Domino_and_Tromino_Tiling");
+const { numTilings } = require("./medium_00790_Domino_and_Tromino_Tiling");
 
 it("", () => {
 	expect(numTilings(1)).toBe(1);
