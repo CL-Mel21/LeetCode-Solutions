@@ -18,9 +18,7 @@ var minimizedMaximum = function (n, quantities) {
 		let mid = Math.floor((left + right) / 2);
 		if (canDistribute(mid, n)) right = mid - 1;
 		else left = mid + 1;
-		console.log({ left, right })
 	}
-	console.log(left)
 	return left;
 };
 

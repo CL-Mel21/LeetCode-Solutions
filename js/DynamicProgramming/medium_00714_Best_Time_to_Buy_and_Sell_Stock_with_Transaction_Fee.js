@@ -38,7 +38,6 @@ var maxProfit = function (prices, fee) {
 	for (let i =  1; i <prices.length; i ++) {
 		profit = Math.max(profit, prices[i]-cost-fee);
 		cost = Math.min(cost, prices[i]-profit);
-		console.log(profit, cost)
 	}
 	return profit;
 };

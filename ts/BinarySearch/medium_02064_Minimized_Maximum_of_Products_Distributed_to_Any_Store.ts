@@ -18,7 +18,6 @@ function minimizedMaximum(n: number, quantities: number[]): number {
 		if (canDistribute(mid, n)) right = mid - 1;
 		else left = mid + 1;
 	}
-	console.log(left)
 	return left;
 };
 
