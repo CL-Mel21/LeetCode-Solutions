@@ -1,4 +1,4 @@
-import { grayCode } from "../../js/Bit/medium_00089_Gray_Code";
+import grayCode from "./medium_00089_Gray_Code";
 
 describe('Gray Code', () => {
   test('', () => {

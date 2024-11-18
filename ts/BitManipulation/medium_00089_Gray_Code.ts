@@ -9,3 +9,5 @@ function grayCode(n: number): number[] {
   }
   return arr;
 };
+
+export default grayCode;

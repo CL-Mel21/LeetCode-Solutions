@@ -26,7 +26,6 @@ var maximalRectangle = function (matrix) {
       matrix[i][j] = matrix[i][j] === "0" ? 0 : i > 0 ? matrix[i - 1][j] + 1 : 1;
     }
     area = getRowMaxArea(matrix[i], area);
-    console.log(i, area)
   }
   return area;
 };
